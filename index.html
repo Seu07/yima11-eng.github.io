@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="km">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yima — Bazi &amp; Daily Fortune</title>
+<meta name="description" content="Yima: your Bazi chart, daily fortune, lucky colors and directions.">
+<link rel="icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root { --red: #D7261E; --deep: #8E1712; --gold: #F7C948; --bg: #FFF8F3; --text: #2B1A12; --muted: #6B5A50;
+        --card: #FFFFFF; --line: #F0DDD3; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #1A0F0C; --text: #F5E9E3; --muted: #BFA9A0; --card: #261714; --line: #3A2621; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+       font: 17px/1.6 "Kantumruy Pro", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--red); }
+.hero { background: linear-gradient(160deg, #E5392F, var(--red) 40%, var(--deep)); color: #fff; text-align: center;
+        padding: 56px 16px 64px; }
+.hero img { width: 112px; height: 112px; border-radius: 28px; background: #fff; padding: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,.25); }
+.hero h1 { font-size: 44px; margin: 18px 0 6px; line-height: 1.1; }
+.hero p { margin: 0 auto; max-width: 560px; color: var(--gold); font-weight: 600; }
+.badges { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 28px; }
+.badge { display: inline-block; background: #fff; color: var(--red); text-decoration: none; font-weight: 800;
+         padding: 12px 22px; border-radius: 999px; box-shadow: 0 6px 18px rgba(0,0,0,.2); }
+.badge.off { opacity: .6; pointer-events: none; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(210px, 100%), 1fr)); gap: 14px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+.card b { display: block; margin-bottom: 4px; }
+.card span { color: var(--muted); font-size: 15px; }
+h2 { margin-top: 36px; }
+footer { text-align: center; color: var(--muted); font-size: 14px; padding: 24px 16px 40px; }
+footer a { margin: 0 8px; }
+.doc h1 { font-size: 30px; line-height: 1.2; }
+.doc h2 { font-size: 19px; margin-top: 28px; }
+.doc .muted { color: var(--muted); }
+.lang { text-align: right; max-width: 760px; margin: 0 auto; padding: 12px 16px 0; font-size: 15px; }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <img src="icon.png" alt="Yima">
+  <h1>Yima</h1>
+  <p>បាជឺ · ជោគជតាប្រចាំថ្ងៃ · ពណ៌សំណាង<br>Bazi · Daily fortune · Lucky colors</p>
+  <div class="badges">
+    <a class="badge" href="https://play.google.com/store/apps/details?id=com.yima.app">Google Play</a>
+    <span class="badge off">App Store — soon</span>
+  </div>
+</section>
+<main>
+  <div class="grid">
+<div class="card"><b>☀️ Daily fortune / ជោគជតាប្រចាំថ្ងៃ</b><span>Good day or not, what to do and avoid / ថ្ងៃល្អ ឬអត់ គួរធ្វើ និងគួរចៀស</span></div>
+<div class="card"><b>🎨 Lucky colors / ពណ៌សំណាង</b><span>For clothes, wallet, car and phone / សម្រាប់សម្លៀកបំពាក់ កាបូប ឡាន និងទូរស័ព្ទ</span></div>
+<div class="card"><b>🧭 Good directions / ទិសល្អ</b><span>Where to face today, and what to avoid / ទិសល្អ និងទិសឆុងប្រចាំថ្ងៃ</span></div>
+<div class="card"><b>⏰ Lucky hours / ម៉ោងសំណាង</b><span>Best days and hours this month / ថ្ងៃ និងម៉ោងល្អក្នុងខែនេះ</span></div>
+<div class="card"><b>🀄 Four Pillars chart / តារាងសសរបួន</b><span>Your full Bazi chart in one tap / តារាងបាជឺពេញលេញ</span></div>
+<div class="card"><b>⏳ Luck pillars / សសរសំណាង</b><span>10 years → year → month → day → hour / ១០ឆ្នាំ → ឆ្នាំ → ខែ → ថ្ងៃ → ម៉ោង</span></div>
+  </div>
+  <h2>ឯកជន ១០០% · 100% private</h2>
+  <p>គ្មានគណនី។ ព័ត៌មានកំណើតរបស់អ្នក នៅលើទូរស័ព្ទរបស់អ្នក។<br>
+     No account. Your birth details stay on your phone. The app is free and supported by ads.</p>
+  <h2>ទំនាក់ទំនង · Contact</h2>
+  <p><a href="mailto:yimasupport@gmail.com">yimasupport@gmail.com</a> · <a href="https://t.me/yima1_1">Telegram</a></p>
+</main>
+
+<footer>
+  <a href="index.html">Yima</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a>
+  · <a href="mailto:yimasupport@gmail.com">yimasupport@gmail.com</a> · <a href="https://t.me/yima1_1">Telegram</a>
+  <div>© Yima, Cambodia</div>
+</footer>
+</body>
+</html>
